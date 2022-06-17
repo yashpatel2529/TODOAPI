@@ -15,12 +15,6 @@ from rest_framework.views import APIView
 # Create your views here.
 
 
-# class Registrations(APIView):
-#     def get(self, request):                                    
-#         registration = Register.objects.all()
-#         registration_serializer = RegisterSerializer(
-#             instance=registration, many=True, context={'request': request})
-#         return Response(registration_serializer.data)
 
 
 class UserRegister(APIView):
